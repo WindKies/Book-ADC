@@ -1,0 +1,130 @@
+		*{
+		    margin: 0;
+		    padding: 0;
+		}
+		body{
+		        background-color: #fff;
+		}
+		.container{
+		    width: 100%;
+		    margin:  auto;
+			background: #111;
+
+		}
+
+		.head{
+		    height: 60px;
+		    background: rgb(31, 29, 29);
+		    line-height: 60px;
+		    text-align: center;
+		    
+		}
+		.than{
+			background: #111;
+			height: 415px;
+		}
+		table{
+				margin: auto;
+				padding: 50px 40px;
+				background: #1F1F1F;
+    			border-radius: 5px;
+		}
+		a{
+			text-decoration: none;
+		}
+		.than h2{
+			color: #fff;
+			margin: 0 0 20px 0;
+		}
+		.logo #char1{
+		    color: rgb(169, 24, 14);
+		    font-weight: bold;
+		    font-size: 32px;		  		 
+		}
+		.logo #char2{
+		    font-size: 32px;
+		    font-weight: bold;
+		    color: white;		    
+		}
+		.notify{
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 40px;
+			color: #fff;
+
+		}
+		
+		.than input[type=text], input[type=password]{
+			width: 300px;
+			height: 42px;			 
+		    line-height: 42px;		  
+		    padding: 0 10px;
+			border: none;
+    		border-radius: 5px;
+    		font-size: 16px;
+		    box-sizing: border-box;
+		    margin-top: 15px;
+		    margin-bottom: 15px;
+		    color: #868686;
+
+			
+		}
+		input[type=submit]{
+			background-color: green;
+			color: #fff;
+			width: 300px;
+			height: 42px;			 
+		    line-height: 42px;		  
+		    padding: 0 10px;
+			border: none;
+    		border-radius: 5px;
+    		font-size: 16px;
+		    box-sizing: border-box;
+		    margin-top: 15px;
+		    margin-bottom: 15px;
+    		font-weight: bold;
+    		cursor: pointer;   		
+		}
+
+		#eye span{
+			/*transform: scale(0.7, 0.7);*/ /*Thu nhỏ*/
+			position: relative; /*Dịch chuyển icon*/
+			top: 2px;
+			cursor: pointer;
+			margin-left: -33px;
+		}
+
+		.clear{
+    		clear: both;
+		}
+		.footer{
+			margin: auto;
+		    height: 300px;
+		    background-color: #000000;
+		}
+
+		.bot1{
+		    text-align: center;
+		    margin-top: 30px; /*khoang cach tren giua footer and ...*/
+		    padding: 10px;
+		    background-color: rgb(215, 133, 133);
+		}
+		.clear{
+		    clear: both;
+		}
+		.bot_left{
+		    width: 40%;
+		    margin-left: 30px;
+		    margin-top: 10px;
+		    color: white;
+		    float: left;
+		    text-align: justify;
+		}
+		.bot_right{
+		    width: 40%;
+		    color: white;
+		    margin-top: 10px;
+		    float: right;
+		}

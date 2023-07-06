@@ -1,0 +1,81 @@
+html, body {
+    min-height: 100%;
+}
+
+
+body {
+    background: linear-gradient(to right, @bg1 0%, @bg1 5%, @bg3 5%, @bg3 10%, @bg2 10%, @bg2 15%, @bg1 15%, @bg1 20%, @bg2 20%, @bg2 25%, @bg3 25%, @bg3 30%, @bg1 30%, @bg1 35%, @bg3 35%, @bg3 40%, @bg2 40%, @bg2 45%, @bg1 45%, @bg1 50%, @bg3 50%, @bg3 55%, @bg2 55%, @bg2 60%, @bg1 60%, @bg1 65%, @bg3 65%, @bg3 70%, @bg1 70%, @bg1 75%, @bg2 75%, @bg2 80%, @bg1 80%, @bg1 85%, @bg3 85%, @bg3 90%, @bg2 90%, @bg2 95%, @bg1 95%, @bg1 100%);
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding:0;
+    background-color: rgb(227, 227, 227);
+}
+table{
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+h1{
+    margin-top: 10px;
+    background-color: rgb(160, 99, 23);
+    text-align: center;
+    margin: 10px 80px 0px 80px;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-family: Comic Sans MS;
+
+    padding: 1rem 5rem;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #DEB887;
+    position: relative;
+    
+}
+.main{
+    text-align: center;
+    font-family: cursive;
+    font-size: 24px;
+    border: 10px solid black;
+    padding: 2rem 1rem;
+    min-height: 3em;
+    width: 60%;
+    resize: both;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.gradient {
+    background-image: linear-gradient(90deg, rgba(94,114,235,1) 0%, rgba(255,145,144,1) 56%, rgba(254,193,149,1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+    animation: move 1s infinite;
+  }
+  @keyframes move {
+    50% {
+      background-image: linear-gradient(262deg, rgba(94,114,235,1) 0%, rgba(255,145,144,1) 56%, rgba(254,193,149,1) 100%);
+    }
+  }
